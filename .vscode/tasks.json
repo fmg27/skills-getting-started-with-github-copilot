@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Python: Installing uv...",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-c",
+        "irm https://astral.sh/uv/install.ps1 | iex"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
